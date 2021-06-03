@@ -1,0 +1,127 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #F9E7E7;
+}
+.responsive {
+    padding-top: 2rem;
+    display: block;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding-top: 2rem;
+    text-align: center;
+    font-size: 2rem;
+}
+h2{
+    text-decoration: underline;
+}
+.info{
+    padding-top: 20px;
+}
+.card{
+    background-color: #DED6D6;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    padding: 3rem;
+}
+.card1{
+    background-color: #DED6D6;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    padding: 3rem 4rem 2rem 2rem;
+}
+.container1{
+    padding: 3rem;
+}
+.containerpg{
+    padding: 0 3rem 3rem 3rem;
+}
+.column{
+    float: left; 
+    padding-top: 1rem;   
+}
+.algnleft{
+    text-align: right;
+}
+.row:after{
+    content: "";
+    display: table;
+    clear: both;
+} 
+.right{
+    padding-left: 2rem;
+    
+}
+.column1{
+    float:left;
+    width: 33.33%;
+}
+.row1::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.img2{
+    height: 450px;
+    width: 450px;
+    padding-right: 5rem;
+}
+.footer {
+    margin-top: 4rem;;
+    position: relative;
+    left: 0;
+    height: 100px;
+    bottom: 0;
+    width: 100%;
+    background-color: #D2CBCB;
+    color: white;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    padding: 20px;
+}
+
+
+@media screen and (max-width: 600px){
+    .column{
+        width: 100%;
+    }
+    .column1{
+        width:100%;
+    }
+    .right{
+        padding-left: 0;
+    }
+    .middle{
+        padding-left: 0;
+    }
+    .img2{
+        height: 350px;
+        width: 350px;
+        padding-right: 1.75rem ;
+    }
+    iframe{
+        height: 215px;
+        width: 350px;
+    }
+    blockquote{
+        font-size: 1rem;
+    }
+    .responsive{
+        width: 100%;
+        height: auto;
+        padding-top: 2rem;
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+}
+
+
