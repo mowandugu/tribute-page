@@ -21,6 +21,13 @@ body{
     text-align: center;
     font-size: 2rem;
 }
+
+
+
+img{
+    max-width: 100%;
+}
+
 h2{
     text-decoration: underline;
 }
@@ -93,6 +100,9 @@ h2{
 @media screen and (max-width: 600px){
     .column{
         width: 100%;
+    }
+    img{
+        max-width: 100%;
     }
     .column1{
         width:100%;
